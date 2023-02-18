@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "119761322957",
+    "firebase_url": "https://help-the-next-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "help-the-next",
+    "storage_bucket": "help-the-next.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119761322957:android:0c642eee10126732faba84",
+        "android_client_info": {
+          "package_name": "com.example.helpthenext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119761322957-3esvjkgnea7aso68du6ofa4rlpvs9m8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA9RiJnnv_E0ejmLa1c6UYe2Sul8IUvgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119761322957-3esvjkgnea7aso68du6ofa4rlpvs9m8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

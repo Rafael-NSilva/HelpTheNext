@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LostPersonMessage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMessagge"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/CustomToolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:navigationIcon="@drawable/ic_custom_back_button"
+        app:title="Message"
+        app:titleTextColor="@color/baby_powder" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:text="@string/button_send_message"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msg"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="297dp"
+        android:layout_height="230dp"
+        android:background="@drawable/edit_text_border_chat"
+        android:ems="10"
+        android:hint="@string/box_message_text"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarMessagge"
+        app:layout_constraintVertical_bias="0.4"
+        android:gravity="top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="296dp"
+        android:layout_height="99dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/msg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarMessagge"
+        android:gravity="top"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

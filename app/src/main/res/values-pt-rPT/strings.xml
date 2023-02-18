@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelpTheNext</string>
+    <string name="fullName">Rui Pedro</string>
+    <string name="gender">Masculino</string>
+    <string name="birthdate">20/02/1990</string>
+    <string name="country">Portugal</string>
+    <string name="city">Braga</string>
+    <string name="avatar">Avatar</string>
+    <string name="userName">R_Pedro</string>
+    <string name="new_password">Password</string>
+    <string name="confirm_password">Confirmar Password</string>
+    <string name="show_hide">Mostrar/Esconder</string>
+    <string name="activity_user_profile_title">Perfil</string>
+    <string name="activity_edit_profile_title">Edição Perfil</string>
+    <string name="activity_change_password_title">Troca Password</string>
+    <string name="activity_setings_title">Definições</string>
+    <string name="password_text">Password</string>
+    <string name="Confirm_password_text">"Confirmar "</string>
+    <string name="language_text">Linguagem</string>
+    <string name="checkbox_text">Troca automatica de esquemas</string>
+    <string name="password_key_icon">Icon da Chave</string>
+    <string name="show_hide_password_icon">Mostrar/Esconder password icon</string>
+    <string name="error_icon">Icon erro</string>
+    <string name="change_theme">Trocar Esquema</string>
+    <string name="change_language">Trocar Linguagem</string>
+    <string name="button_edit_profile">Edição Perfil</string>
+    <string name="button_change_password">Trocar Password</string>
+    <string name="button_apply_changes">Aplicar Alterações</string>
+    <string name="button_submit_accommodation_request">Submeter</string>
+    <string name="button_submit_resources_request">Submeter</string>
+    <string name="button_edit_list_of_resources">Editar</string>
+    <string name="button_send_message">Enviar mensagem</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZGFuaWR1Y2siLCJhIjoiY2wyZHFvZDlzMDEzcjNtb3pycm14b2UwdCJ9.L17h23IYNXulWk1atGJT0w</string>
+    <string name="map_title">Mapa</string>
+    <string name="legalDocs">Documentos Legais</string>
+    <string name="content_description_legalDocs">Vai ao ecrã dos documentos legais</string>
+    <string name="filterToList">Filtrar pedidos numa lista</string>
+    <string name="content_description_filterToList">Filtra os pedidos do mapa em uma lista</string>
+    <string name="fab_shelterRequest_desc">Vai dar ao menu que permite ao utilizador criar um pedido de alojamento</string>
+    <string name="fab_resourceRequest_desc">Vai dar ao menu que permite ao utilizador criar pedidos de recursos</string>
+    <string name="fab_missingPersonRequest_desc">Vai dar ao menu que permite ao utilizador criar um pedido de uma pessoa desaparecida</string>
+    <string name="profile_option">Perfil</string>
+    <string name="notifications_option">Notificações</string>
+    <string name="donatingResources_option">Doar Recursos</string>
+    <string name="requests_option">Pedidos</string>
+    <string name="settings_option">Definições</string>
+    <string name="logOut_option">Sair</string>
+    <string name="content_description_profile">Vai entrar no ecrã perfil de utilizador</string>
+    <string name="content_description_notifications">Mostra as notificações do utilizador</string>
+    <string name="content_description_resources">Vai entrar no ecrã que o utilizador decide o que irá doar</string>
+    <string name="content_description_requests">Mostra todos os pedidos feitos por um utilizador</string>
+    <string name="content_description_settings">Vai dar ao ecrã das definições</string>
+    <string name="content_description_logout">Onde o utilizador sai da aplicação</string>
+    <string name="fab_resourceRequest">Pedido de recurso</string>
+    <string name="fab_shelterRequest">Pedido de alojamento</string>
+    <string name="fab_missingPersonRequest">Pedido de pessoa desaparecida</string>
+    <string name="fab_addRequest_desc">Mostra os botões flutuantes com as várias posibilidades de pedidos</string>
+    <string name="activity_settings_title">Definições</string>
+    <string name="throw_error_empty_field">Campos vazios não permitidos</string>
+    <string name="throw_error_different_passwords">Passwords diferentes</string>
+    <string name="activity_user_notifications_title">Notificações</string>
+    <string name="button_confirm_password_change">Confirmar troca</string>
+    <string name="change_password_text">Introduza a nova password</string>
+
+    <string name="search_for_resources_label">Procura de Recursos</string>
+    <string name="search_for_accommodation_label">Procura de acomodação</string>
+    <string name="list_of_resources_label">Lista de Recursos</string>
+    <string name="edit_list_of_resources_label">Edição da Lista de Recursos</string>
+    <string name="donate_resources_label">Recursos a doar do "Utilizador"</string>
+    <string name="refuge_country">País de refugio</string>
+    <string name="document_location">Localização</string>
+
+    <!-- Venelin Alertas -->
+    <string name="toast_no_property_type">É necessário escolher o tipo de imóvel</string>
+    <string name="toast_no_number_of_people">É necessário introduzir o número de pessoas</string>
+
+    <!-- Francisco - Traduções (Missing Person) -->
+    <string name="missing_person_first_name_textRequest">Primeiro Nome</string>
+    <string name="missing_person_last_name_textRequest">Último Nome</string>
+    <string name="missing_person_date_request">Última Data Visto</string>
+    <string name="missing_person_other_details_request">Outros Detalhes</string>
+    <string name="missing_person_last_seen_preffix">Visto - </string>
+    <string name="missing_person_last_seen_post"> dias atrás</string>
+    <string name="missing_person_searched_by_preffix">Procurado por - </string>
+    <string name="missing_person_request_label">Procura de Familiares</string>
+
+    <string name="button_submit">Submeter</string>
+    <string name="button_found_missing_person">Conheço Localização</string>
+
+    <string name="alert_title_wrong_date">Data Inválida</string>
+    <string name="alert_desc_wrong_date_after">Data inserida é após hoje</string>
+    <string name="alert_accept">Entendido</string>
+    <string name="toast_no_image">Nenhuma imagem selecionada</string>
+    <string name="toast_no_first_name">Primeiro nome não Escrito</string>
+    <string name="toast_no_last_name">Último nome não Escrito</string>
+    <string name="toast_no_last_date">Nenhuma data de desaparecimento escolhida</string>
+    <string name="toast_no_map_location">Nenhuma localização escolhida</string>
+    <string name="toast_request_success">Pedido de Familiar Desaparecido Criado</string>
+    <string name="toast_request_fail">Ocorreu um Erro a Criar o Pedido</string>
+
+    <string name="location_permission_denied">Esta aplicação requer conhecimento da localização do utilizador para executar certas funções.</string>
+
+
+    <string-array name="countries_array">
+        <item>País</item>
+        <item>Portugal</item>
+        <item>Espanha</item>
+        <item>Inglaterra</item>
+    </string-array>
+
+    <string-array name="type_of_properties">
+        <item>Apartamento</item>
+        <item>Moradia</item>
+    </string-array>
+</resources>

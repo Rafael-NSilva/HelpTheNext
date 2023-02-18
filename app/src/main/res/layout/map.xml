@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/CustomToolbar"
+        app:menu="@menu/top_app_bar"
+        app:navigationIcon="@drawable/menu_black_36dp" />
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textview_missingPersonRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="240dp"
+            android:layout_marginEnd="88dp"
+            android:background="#212121"
+            android:padding="8dp"
+            android:text="@string/fab_missingPersonRequest"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/missingPersonRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="230dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/fab_missingPersonRequest_desc"
+            android:elevation="0dp"
+            android:visibility="invisible"
+            app:backgroundTint="@color/fab"
+            app:srcCompat="@drawable/ic_missingicon"
+            app:tint="@color/fabIcon" />
+
+        <TextView
+            android:id="@+id/textview_shelterRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="170dp"
+            android:layout_marginEnd="88dp"
+            android:background="#212121"
+            android:padding="8dp"
+            android:text="@string/fab_shelterRequest"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/shelterRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="160dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/fab_shelterRequest_desc"
+            android:elevation="0dp"
+            android:visibility="invisible"
+            app:backgroundTint="@color/fab"
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            app:tint="@color/fabIcon"/>
+
+        <TextView
+            android:id="@+id/textview_resourceRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="100dp"
+            android:layout_marginEnd="88dp"
+            android:background="#212121"
+            android:padding="8dp"
+            android:text="@string/fab_resourceRequest"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/resourceRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="90dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/fab_missingPersonRequest_desc"
+            android:elevation="0dp"
+            android:visibility="invisible"
+            app:backgroundTint="@color/fab"
+            app:srcCompat="@drawable/ic_baseline_shopping_basket_24"
+            app:tint="@color/fabIcon"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addRequestFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/fab_addRequest_desc"
+            android:elevation="0dp"
+            app:backgroundTint="@color/fab"
+            app:srcCompat="@android:drawable/ic_input_add"
+            app:tint="@color/fabIcon"/>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MissingPersonRequestActivity">
+
+    <Button
+        android:id="@+id/btnSubmitMissingPersonRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="@string/button_submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/missingPersonOtherDetailsRequest"
+        android:layout_width="300dp"
+        android:layout_height="96dp"
+        android:hint="@string/missing_person_other_details_request"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmitMissingPersonRequest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        «</EditText>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMissingPersonRequest"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/CustomToolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:navigationIcon="@drawable/ic_custom_back_button"
+        app:title="@string/missing_person_request_label"
+        app:titleTextColor="@color/baby_powder" />
+
+    <ImageView
+        android:id="@+id/imgMissingPersonRequest"
+        android:layout_width="123dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_test"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarMissingPersonRequest"
+        app:layout_constraintVertical_bias="0.039"
+        app:srcCompat="@drawable/question_mark"
+        tools:srcCompat="@drawable/question_mark" />
+
+    <EditText
+        android:id="@+id/missingPersonFirstNameRequest"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:hint="@string/missing_person_first_name_textRequest"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgMissingPersonRequest"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarMissingPersonRequest"
+        app:layout_constraintVertical_bias="0.065"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/missingPersonLastNameRequest"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:hint="@string/missing_person_last_name_textRequest"
+        app:layout_constraintBottom_toTopOf="@+id/missingPersonOtherDetailsRequest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgMissingPersonRequest"
+        app:layout_constraintTop_toBottomOf="@+id/missingPersonFirstNameRequest"
+        app:layout_constraintVertical_bias="0.02"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+    <TextView
+        android:id="@+id/txtMissingPersonDateRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/missing_person_date_request"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/imgMissingPersonRequest"
+        app:layout_constraintTop_toBottomOf="@+id/missingPersonLastNameRequest" />
+
+    <fragment
+        android:id="@+id/missingPersonMapLocation"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="199dp"
+        android:layout_height="174dp"
+        app:layout_constraintBottom_toTopOf="@+id/missingPersonOtherDetailsRequest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgMissingPersonRequest" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imgMissingPersonRequest"
+        app:layout_constraintEnd_toEndOf="@+id/imgMissingPersonRequest"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="@+id/imgMissingPersonRequest"
+        app:layout_constraintTop_toTopOf="@+id/imgMissingPersonRequest"
+        app:layout_constraintVertical_bias="0.941"
+        app:srcCompat="@drawable/ic_change_avatar_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

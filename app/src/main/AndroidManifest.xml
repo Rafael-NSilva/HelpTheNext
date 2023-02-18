@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helpthenext">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_helpthenextlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_helpthenextlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelpTheNext">
+        <activity
+            android:name=".LostPersonMessage"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".MenuAutenticacao"
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".SelectMissingPersonLocationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ViewMissingPersonRequestActivity"
+            android:exported="true"
+            android:parentActivityName=".MapActivity" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="true"
+            android:parentActivityName=".UserProfileActivity" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="true"
+            android:parentActivityName=".UserProfileActivity" />
+        <activity
+            android:name=".ListOfResourcesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NotificationsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AccommodationRequestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SearchForResourcesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MissingPersonRequestActivity"
+            android:exported="true"
+            android:parentActivityName=".MapActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:parentActivityName=".MapActivity" />
+        <activity
+            android:name=".ResourcesDonationActivity"
+            android:parentActivityName=".MapActivity" />
+        <activity
+            android:name=".DocumentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:parentActivityName=".MapActivity" />
+        <activity
+            android:name=".ResourcesToDonateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditListOfResourcesActivity"
+            android:exported="true" />
+        <activity android:name=".ViewSupplyRequest"
+            android:exported="false"/>
+        <activity android:name=".ViewAccommodationRequest"
+            android:exported="false"/>
+        <activity
+            android:name=".MapActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="baby_powder">#F4F4ED</color>
+    <color name="rose_dust">#A76571</color>
+    <color name="rosy_brown">#C38D94</color>
+    <color name="eerie_black">#262626</color>
+    <color name="celadon_blue">#4281A4</color>
+    <color name="shadow_celadon_blue">#70A8C6</color>
+    <color name="fab">#4281A4</color>
+    <color name="divider">#e3e3e3</color>
+    <color name="fabIcon">#F4F4ED</color>
+    <color name="dark_liver">#474350</color>
+    <color name="independence">#565676</color>
+    <color name="cultured">#F0F3F5</color>
+    <color name="maximum_blue_purple">#AEADF0</color>
+    <color name="background">#F4F4ED</color>
+</resources>

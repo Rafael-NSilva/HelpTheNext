@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResourcesDonationActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/rose_dust"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_custom_back_button"
+        app:title="@string/activity_resources_donation_title"
+        app:titleTextColor="@color/baby_powder" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAccommodation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="200dp"
+        android:text="@string/checkboxAccommodation_text"
+        android:textColor="@color/eerie_black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <CheckBox
+        android:id="@+id/checkBoxResources"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-25dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="200dp"
+        android:text="@string/checkboxResources_text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/houseSpecifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/Accommodation_info_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxAccommodation" />
+
+    <TextView
+        android:id="@+id/numberOfPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/number_of_persons_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutHouseDetails" />
+
+    <EditText
+        android:id="@+id/numberOfPeopleCounter"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/number_box"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="@color/eerie_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberOfPeople"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutHouseDetails"
+        style="@style/CustomTextInputLayout"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/house_specifications"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/houseSpecifications"
+        app:startIconContentDescription="@string/house_icon"
+        app:startIconDrawable="@drawable/ic_home">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputHouseDetails"
+            style="@style/Cursor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSubmitHelp"
+        style="@style/CustomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/button_submit_help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutResources"
+        style="@style/CustomTextInputLayout"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/resources"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resourcesToDonate"
+        app:startIconContentDescription="@string/store_icon"
+        app:startIconDrawable="@drawable/ic_store">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputResources"
+            style="@style/Cursor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/resourcesToDonate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/resources_to_donate_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxResources" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/slider"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/slider"
+        android:stepSize="0.5"
+        android:value="0"
+        android:valueFrom="0"
+        android:valueTo="10"
+        app:haloColor="@color/rosy_brown"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutResources"
+        app:thumbColor="@color/rose_dust"
+        app:thumbStrokeColor="@color/rosy_brown"
+        app:tickColor="@color/rose_dust"
+        app:trackColorActive="@color/rosy_brown"
+        app:trackColorInactive="@color/white"
+        app:trackHeight="8dp">
+
+    </com.google.android.material.slider.Slider>
+
+    <TextView
+        android:id="@+id/sliderTxtQuantity"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/slider"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutResources" />
+
+    <Spinner
+        android:id="@+id/txtMeasurements"
+        android:contentDescription="@string/measurements"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/sliderTxtQuantity"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutResources" />
+</androidx.constraintlayout.widget.ConstraintLayout>

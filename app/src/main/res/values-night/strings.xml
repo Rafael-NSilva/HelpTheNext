@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelpTheNext</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZGFuaWR1Y2siLCJhIjoiY2wyZHFvZDlzMDEzcjNtb3pycm14b2UwdCJ9.L17h23IYNXulWk1atGJT0w</string>
+    <string name="map_title">Map</string>
+    <string name="legalDocs">Legal Documents</string>
+    <string name="content_description_legalDocs">Goes to the legal documents screen</string>
+    <string name="filterToList">Filter requests into list</string>
+    <string name="content_description_filterToList">Filters the map requests into a text based list</string>
+    <string name="fab_shelterRequest_desc">Goes into the menu that lets the user create a shelter request</string>
+    <string name="fab_resourceRequest_desc">Goes into the menu that lets the user create a resource request</string>
+    <string name="fab_missingPersonRequest_desc">Goes into the menu that lets the user create a missing person request</string>
+    <string name="profile_option">Profile</string>
+    <string name="notifications_option">Notifications</string>
+    <string name="donatingResources_option">Donating Resources</string>
+    <string name="content_description_profile">Goes into the user profile screen</string>
+    <string name="content_description_notifications">Shows the user\'s notifications</string>
+    <string name="content_description_resources">Goes to the screen where the user can choose what he\'s willing to donate</string>
+    <string name="content_description_requests">Shows all the requests made by the user</string>
+    <string name="content_description_settings">Goes to the settings screen</string>
+    <string name="content_description_logout">Logs the user out</string>
+    <string name="fab_resourceRequest">Resource Request</string>
+    <string name="fab_shelterRequest">Shelter Request</string>
+    <string name="fab_missingPersonRequest">Missing Person Request</string>
+    <string name="fab_addRequest_desc">Shows the floating buttons with the various possible requests</string>
+    <string name="refuge_country">Country of refuge</string>
+    <string name="document_location">Location</string>
+</resources>

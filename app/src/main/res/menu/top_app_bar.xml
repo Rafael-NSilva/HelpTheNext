@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/documents"
+        android:icon="@drawable/description_black_36dp"
+        android:title="@string/legalDocs"
+        android:contentDescription="@string/content_description_legalDocs"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/filter"
+        android:icon="@drawable/filter_alt_black_36dp"
+        android:title="@string/filterToList"
+        android:contentDescription="@string/content_description_filterToList"
+        app:showAsAction="ifRoom" />
+</menu>

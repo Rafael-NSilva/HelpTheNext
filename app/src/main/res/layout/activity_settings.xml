@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toEndOf="@+id/UKFlagIcon"
+        app:layout_constraintTop_toBottomOf="@+id/textLanguage"
+        app:thumbTint="@color/white"
+        app:trackTint="@color/shadow_celadon_blue"
+        tools:ignore="DuplicateSpeakableTextCheck">
+
+    </com.google.android.material.switchmaterial.SwitchMaterial>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/CustomToolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_custom_back_button"
+        app:title="@string/activity_settings_title" />
+
+    <TextView
+        android:id="@+id/textTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="210dp"
+        android:text="@string/change_theme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:thumbTint="@color/white"
+        app:trackTint="@color/shadow_celadon_blue"
+        app:layout_constraintStart_toEndOf="@+id/lightModeIcon"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox">
+
+    </com.google.android.material.switchmaterial.SwitchMaterial>
+
+    <TextView
+        android:id="@+id/textLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="190dp"
+        android:text="@string/change_language"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="130dp"
+        android:text="@string/checkbox_text"
+        android:checked="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTheme" />
+
+    <ImageView
+        android:id="@+id/lightModeIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:srcCompat="@drawable/ic_custom_light_mode"
+        android:contentDescription="@string/light_mode_icon" />
+
+    <ImageView
+        android:id="@+id/darkModeIcon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toEndOf="@+id/switchTheme"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:srcCompat="@drawable/ic_custom_dark_mode"
+        android:contentDescription="@string/dark_mode_icon" />
+
+    <ImageView
+        android:id="@+id/UKFlagIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLanguage"
+        app:srcCompat="@drawable/ic_united_kingdom_flag"
+        android:contentDescription="@string/uk_flag_icon"/>
+
+    <ImageView
+        android:id="@+id/portugalFlagIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toEndOf="@+id/switchLanguage"
+        app:layout_constraintTop_toBottomOf="@+id/textLanguage"
+        app:srcCompat="@drawable/ic_portugal_flag"
+        android:contentDescription="@string/pt_flag_icon"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

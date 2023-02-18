@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile_option"
+        android:icon="@drawable/person_black_36dp"
+        android:title="@string/profile_option"
+        android:contentDescription="@string/content_description_profile"/>
+
+    <item android:id="@+id/notifications_option"
+        android:icon="@drawable/notifications_black_36dp"
+        android:title="@string/notifications_option"
+        android:contentDescription="@string/content_description_notifications"/>
+
+    <item android:id="@+id/donatingResources_option"
+        android:icon="@drawable/shopping_basket_black_36dp"
+        android:title="@string/donatingResources_option"
+        android:contentDescription="@string/content_description_resources"/>
+
+    <item android:id="@+id/requests_option"
+        android:icon="@drawable/receive_black_36dp"
+        android:title="@string/requests_option"
+        android:contentDescription="@string/content_description_requests"/>
+
+    <item android:id="@+id/settings_option"
+        android:icon="@drawable/settings_black_36dp"
+        android:title="@string/settings_option"
+        android:contentDescription="@string/content_description_settings"/>
+
+    <item android:id="@+id/logOut_option"
+        android:icon="@drawable/logout_black_36dp"
+        android:title="@string/logOut_option"
+        android:contentDescription="@string/content_description_logout"/>
+</menu>

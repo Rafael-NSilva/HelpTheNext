@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">Help The Next</string>
+    <string name="fullName">Full Name</string>
+    <string name="gender">Gender</string>
+    <string name="birthdate">dd/mm/yyyy</string>
+    <string name="avatar">Avatar</string>
+
+    <!-- Francisco Alertas -->
+    <string name="alert_title_wrong_date">Invalid Date</string>
+    <string name="alert_desc_wrong_date_after">Inserted date is after today</string>
+    <string name="alert_accept">Understood</string>
+    <string name="toast_no_image">No image selected</string>
+    <string name="toast_no_first_name">First name not written</string>
+    <string name="toast_no_last_name">Last name not written</string>
+    <string name="toast_no_last_date">No last date seen selected</string>
+    <string name="toast_no_map_location">No map location selected</string>
+    <string name="toast_request_success">Missing Person Request Successfully Created</string>
+    <string name="toast_request_fail">Missing Person Request Failed</string>
+
+    <!-- Venelin Alertas -->
+    <string name="toast_no_property_type">You have to choose a property type</string>
+    <string name="toast_no_number_of_people">You have to insert at least one person</string>
+
+
+    <!-- Francisco Botões -->
+    <string name="button_submit">Submit</string>
+    <string name="button_found_missing_person">Know Location</string>
+
+
+    <!--Activities names-->
+    <string name="user_profile_label">Profile</string>
+    <string name="edit_profile_label">Edit Profile</string>
+    <string name="change_password_label">Change Password</string>
+    <string name="search_for_accommodation_label">Search for Accommodation</string>
+    <string name="list_of_resources_label">Resource List</string>
+    <string name="edit_list_of_resources_label">Resource List Edit</string>
+    <string name="missing_person_request_label">Missing Relatives Search</string>
+    <string name="search_for_resources_label">Search for Resources</string>
+    <string name="donate_resources_label">Donation List</string>
+
+    <!--Strings-->
+    <string name="throw_error_empty_field">Empty fields not allowed</string>
+    <string name="throw_error_different_passwords">Different password</string>
+    <string name="throw_error_no_checkboxes_checked">You need to select one of the checkboxes</string>
+    <string name="throw_error_permission_denied">You denied the camera permission</string>
+    <string name="throw_error_slider_value_null">Resource quantity need to be greater then 0</string>
+    <string name="throw_error_spinner_not_selected_value">Resource units need to be selected</string>
+
+    <!--Activities names-->
+    <string name="activity_user_profile_title">Profile</string>
+    <string name="activity_edit_profile_title">Edit Profile</string>
+    <string name="activity_change_password_title">Change Password</string>
+    <string name="activity_settings_title">Settings</string>
+    <string name="activity_user_notifications_title">Notifications</string>
+    <string name="activity_resources_donation_title">Resources Donation</string>
+    <string name="missing_person_request_title">Missing Relatives</string>
+    <string name="dialog_change_avatar_title">Profile Image</string>
+
+    <!--TextFields Hints-->
+    <string name="password_text">Password</string>
+    <string name="Confirm_password_text">Confirm Password</string>
+    <string name="helper_text_require">Require*</string>
+    <string name="missing_person_first_name_textRequest">First Name</string>
+    <string name="missing_person_last_name_textRequest">Last Name</string>
+    <string name="missing_person_date_request">Last Date Seen</string>
+    <string name="missing_person_other_details_request">Other Details</string>
+    <string name="missing_person_last_seen_preffix">Last Seen - </string>
+    <string name="missing_person_last_seen_post"> days ago</string>
+    <string name="missing_person_searched_by_preffix">Searched By - </string>
+    <string name="language_text">Language</string>
+    <string name="house_specifications">House details</string>
+    <string name="number_box">000</string>
+    <string name="resources">Resources</string>
+    <string name="first_name_text">First Name</string>
+    <string name="last_name_text">Last Name</string>
+    <string name="gender_text">Gender</string>
+    <string name="birthdate_picker">dd/mm/yyyy</string>
+    <string name="country_text">Country</string>
+    <string name="city_text">City</string>
+    <string name="box_message_text">Message</string>
+    <!--CheckBox Text-->
+    <string name="checkbox_text">Automatic change themes</string>
+    <string name="checkboxAccommodation_text">Accommodation</string>
+    <string name="checkboxResources_text">Resources</string>
+
+    <!--Icons ContentDescriptor-->
+    <string name="password_key_icon">Key Icon</string>
+    <string name="show_hide_password_icon">Show/Hide Password Icon</string>
+    <string name="error_icon">Error Icon</string>
+    <string name="light_mode_icon">Light Icon</string>
+    <string name="dark_mode_icon">Dark Icon</string>
+    <string name="pt_flag_icon">Portugal Flag Icon</string>
+    <string name="uk_flag_icon">UK Flag Icon</string>
+    <string name="house_icon">House Icon</string>
+    <string name="store_icon">Store Icon</string>
+    <string name="gender_icon">Gender Icon</string>
+    <string name="birthdate_picker_icon">Calendar Icon</string>
+    <string name="country_icon">Country Icon</string>
+    <string name="City_icon">City Icon</string>
+    <string name="Change_profile_image_icon">Change Profile Image Icon</string>
+    <string name="cam_icon">Camera Icon</string>
+    <string name="gallery_icon">Gallery Icon</string>
+    <string name="cancel_icon">Cancel Icon</string>
+    <string name="trash_can_icon">Trash Can Icon</string>
+
+    <!--TextViews Text-->
+    <string name="change_theme">Change Theme</string>
+    <string name="change_language">Change Language</string>
+    <string name="change_password_text">Insert new password</string>
+    <string name="Accommodation_info_text">House specifications</string>
+    <string name="number_of_persons_text">Number of people afforded</string>
+    <string name="resources_to_donate_text">Resource to donate</string>
+    <string name="cam_text">Camera</string>
+    <string name="gallery_text">Gallery</string>
+    <string name="cancel_text">Cancel</string>
+
+    <!--Buttons text-->
+    <string name="button_edit_profile">Edit Profile</string>
+    <string name="button_change_password">Change Password</string>
+    <string name="button_apply_changes">Apply Changes</string>
+    <string name="button_confirm_password_change">Confirm Change</string>
+    <string name="button_submit_help">Submit Help</string>
+    <string name="button_more_resources">+</string>
+    <string name="button_submit_accommodation_request">Submit</string>
+    <string name="button_submit_resources_request">Submit</string>
+    <string name="button_edit_list_of_resources">Edit</string>
+    <string name="button_send_message">Send Message</string>
+
+    <!--Slider-->
+    <string name="slider">Slider</string>
+
+    <!--Spinner-->
+    <string name="measurements">Measurements Unit</string>
+
+    <string name="firebase_url">https://help-the-next-default-rtdb.europe-west1.firebasedatabase.app/</string>
+    <string name="map_title">Map</string>
+    <string name="legalDocs">Legal Documents</string>
+    <string name="content_description_legalDocs">Goes to the legal documents screen</string>
+    <string name="filterToList">Filter requests into list</string>
+    <string name="content_description_filterToList">Filters the map requests into a text based list</string>
+    <string name="fab_shelterRequest_desc">Goes into the menu that lets the user create a shelter request</string>
+    <string name="fab_resourceRequest_desc">Goes into the menu that lets the user create a resource request</string>
+    <string name="fab_missingPersonRequest_desc">Goes into the menu that lets the user create a missing person request</string>
+    <string name="profile_option">Profile</string>
+    <string name="notifications_option">Notifications</string>
+    <string name="donatingResources_option">Donating Resources</string>
+    <string name="requests_option">Requests</string>
+    <string name="settings_option">Settings</string>
+    <string name="logOut_option">Log out</string>
+    <string name="content_description_profile">Goes into the user profile screen</string>
+    <string name="content_description_notifications">Shows the user\'s notifications</string>
+    <string name="content_description_resources">Goes to the screen where the user can choose what he\'s willing to donate</string>
+    <string name="content_description_requests">Shows all the requests made by the user</string>
+    <string name="content_description_settings">Goes to the settings screen</string>
+    <string name="content_description_logout">Logs the user out</string>
+    <string name="fab_resourceRequest">Resource Request</string>
+    <string name="fab_shelterRequest">Shelter Request</string>
+    <string name="fab_missingPersonRequest">Missing Person Request</string>
+    <string name="fab_addRequest_desc">Shows the floating buttons with the various possible requests</string>
+    <string name="refuge_country">Country of refuge</string>
+    <string name="document_location">Location</string>
+    <string name="asylumDocs">Claim Asylum</string>
+    <string name="portugalAsylumDetails">Asylum is a form of protection which allows an individual to remain in a Country instead of being removed (deported) to a country where he or she fears persecution or harm.\nAlthrough not necessary, it is beneficial to have a photocopy of a personal identification document and any other documents that you think will help.\nIn Portugal you can apply claim asylum at \'Serviço de Estrangeiros e Fronteiras\'(SEF) or at border outposts if you\'re yet to arrive in the country.</string>
+    <string name="spainAsylumDetails">Asylum is a form of protection which allows an individual to remain in a Country instead of being removed (deported) to a country where he or she fears persecution or harm.\nAlthrough not necessary, it is beneficial to have a photocopy of a personal identification document and any other documents that you think will help.\nIn Spain you can apply claim asylum at Oficina de Asilo y Refugio or at border outposts if you\'re yet to arrive in the country.</string>
+    <string name="unitedKingdomAsylumDetails">Asylum is a form of protection which allows an individual to remain in a Country instead of being removed (deported) to a country where he or she fears persecution or harm.\nAlthrough not necessary, it is beneficial to have, identification documents, passports and travel documents, and any other documents that you think will help.\nIn the United Kingdom you can apply claim asylum by calling the number 020 8196 4524 to schedule an interview, or if you don\'t have a place to stay at, go to the Lunar House in Croydon.</string>
+
+    <!--    Permissions    -->
+    <string name="location_permission_denied">This application requires knowledge of user location in order to execute certain functions.</string>
+
+    <string-array name="countries_array">
+        <item>Country</item>
+        <item>Portugal</item>
+        <item>Spain</item>
+        <item>United Kingdom</item>
+    </string-array>
+
+    <string-array name="type_of_properties">
+        <item>Apartment</item>
+        <item>Home</item>
+    </string-array>
+
+    <string-array name="unit_of_measurements">
+        <item>Unit</item>
+        <item>kg</item>
+        <item>g</item>
+        <item>m</item>
+        <item>cm</item>
+        <item>l</item>
+        <item>ml</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other Gender</item>
+    </string-array>
+</resources>
